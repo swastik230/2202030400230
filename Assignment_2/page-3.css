@@ -1,0 +1,85 @@
+
+        .container {
+          background-color: #fff;
+          display: flex;
+          max-width: 480px;
+          flex-direction: column;
+          margin: 0 auto;
+        }
+        .top-bar {
+          background-color: #d9d9d9;
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+          font-size: 20px;
+          color: #000;
+          padding: 8px 25px;
+        }
+        .category-title {
+          font-family: Inter, sans-serif;
+          margin: auto 0;
+        }
+        .action-section, .popular, .offers, .section-footer {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #000;
+          padding: 20px 60px;
+        }
+        .offers {
+          background-color: #eeb866;
+        }
+        .popular, .offers, .section-footer {
+          font-size: 32px;
+          font-family: Inter, sans-serif;
+        }
+        .category-item {
+          background-color: #d9d9d9;
+          margin-top: 22px;
+          color: #000;
+          padding: 11px;
+          font-size: 15px;
+          font-family: Inter, sans-serif;
+        }
+        .sub-category {
+          display: flex;
+          gap: 20px;
+        }
+        .column, .column-aside {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+        }
+        .column {
+          width: 19%;
+        }
+        .column-aside {
+          width: 81%;
+          margin-left: 20px;
+        }
+        .store-item {
+          background-color: #d9d9d9;
+          justify-content: center;
+          color: #000;
+          padding: 8px;
+          font-size: 15px;
+          font-family: Inter, sans-serif;
+        }
+        .recent-view {
+          background-color: #465e9c;
+          margin-top: 17px;
+          color: #fff;
+          font-size: 20px;
+          font-family: Inter, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .sub-category {
+            flex-direction: column;
+            align-items: stretch;
+          }
+          .column, .column-aside {
+            width: 100%;
+            margin-left: 0;
+          }
+        }
+      

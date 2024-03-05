@@ -1,0 +1,56 @@
+
+.wishlist-container {
+  background-color: #fff;
+  display: flex;
+  max-width: 480px;
+  width: 100%;
+  flex-direction: column;
+  font-weight: 400;
+  margin: 0 auto;
+ padding: 0 13px 13px;
+}
+.wishlist-header {
+  background-color: #465e9c;
+  color: #fff;
+  padding: 21px 34px 13px;
+  font: 36px Inika, sans-serif;
+}
+.product-list {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  aspect-ratio: 0.51;
+  width: 100%;
+  padding-top: 50px;
+  font-size: 20px;
+  color: #000;
+}
+.product-image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.product-name-group, .action-group {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 6px 14px;
+}
+.product-name {
+  font-family: Inria Serif, sans-serif;
+  flex-grow: 1;
+}
+.add-to-cart {
+  font-family: Inria Serif, sans-serif;
+  flex-grow: 1;
+  cursor: pointer;
+  user-select: none;
+}
+.add-to-cart:focus {
+  outline: 2px solid blue;
+}

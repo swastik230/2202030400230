@@ -1,0 +1,135 @@
+.product-container {
+  background-color: #eeb866;
+  display: flex;
+  max-width: 480px;
+  width: 100%;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.top-selling-header {
+  background-color: #df3d3d;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 12px;
+  font-size: 36px;
+  color: #000;
+  font-weight: 400;
+}
+
+.product-image,
+.banner-image {
+  object-fit: cover;
+  width: 62px;
+}
+
+.top-selling-text {
+  flex-grow: 1;
+  margin: auto 0;
+  font-family: "IM FELL Great Primer SC", -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.deals-section {
+  display: flex;
+  flex-direction: column;
+  min-height: 846px;
+  width: 100%;
+  padding: 50px 0;
+  position: relative;
+}
+
+.banner-image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.deals-container {
+  position: relative;
+  background-color: #d9d9d9;
+  margin-top: 170px;
+  width: 100%;
+  padding: 3px 0 29px;
+}
+
+.deals-columns {
+  display: flex;
+  gap: 20px;
+}
+
+.deal-column,
+.saver-deals-column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.deal-item {
+  font-size: 24px;
+  color: #000;
+  font-weight: 400;
+  white-space: nowrap;
+  padding: 0 20px;
+}
+
+.deal-description,
+.deal-brand {
+  margin-top: 5px;
+  font-family: "Inria Serif", sans-serif;
+}
+
+.deal-discount {
+  align-self: start;
+  margin-top: 6px;
+  font-family: "Inria Serif", sans-serif;
+}
+
+.recommendation-header {
+  background-color: #eeb866;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 17px 40px 31px;
+  color: #000;
+  font-weight: 400;
+}
+
+.recommendation-title {
+  flex-grow: 1;
+  font: 20px "Inknut Antiqua", sans-serif;
+}
+
+.recommendation-arrow {
+  font: 48px "Inknut Antiqua", sans-serif;
+}
+
+.recommendation-list {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 16px 10px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+}
+
+.product-name {
+  flex-grow: 1;
+  white-space: nowrap;
+  font: 15px "Inknut Antiqua", sans-serif;
+}
+
+@media (max-width: 991px) {
+  .deals-columns {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+
+  .deal-column,
+  .saver-deals-column {
+    width: 100%;
+  }
+}

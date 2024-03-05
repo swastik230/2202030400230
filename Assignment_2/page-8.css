@@ -1,0 +1,191 @@
+
+        .search-container {
+          background-color: #fff;
+          display: flex;
+          max-width: 430px;
+          padding: 7px;
+          flex-direction: column;
+        }
+      
+        .header {
+          background-color: #f90;
+          display: flex;
+          justify-content: space-between;
+          gap: 1px;
+          font-size: 24px;
+          color: #000;
+          font-weight: 400;
+          padding: 11px 18px;
+        }
+      
+        .header-logo {
+          aspect-ratio: 0.83;
+          object-fit: cover;
+          width: 41px;
+        }
+      
+        .search-text {
+          font-family: 'Inknut Antiqua', sans-serif;
+          flex-grow: 1;
+          margin: auto 0;
+        }
+      
+        .product-section {
+          background-color: #993434;
+          padding: 2px 15px;
+        }
+      
+        .product-content {
+          gap: 20px;
+          display: flex;
+        }
+      
+        @media (max-width: 991px) {
+          .product-content {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0px;
+          }
+        }
+      
+        .product-info {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 70%;
+        }
+      
+        @media (max-width: 991px) {
+          .product-info {
+            width: 100%;
+          }
+        }
+      
+        .product-details {
+          display: flex;
+          flex-direction: column;
+          font-size: 24px;
+          color: #000;
+          font-weight: 400;
+          white-space: nowrap;
+          margin: auto 0;
+        }
+      
+        .product-name {
+          font-family: 'Inknut Antiqua', sans-serif;
+        }
+      
+        .product-price,
+        .product-size,
+        .product-color {
+          font-family: 'Inknut Antiqua', sans-serif;
+          margin-top: 9px;
+        }
+      
+        .product-image-section {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 30%;
+          margin-left: 20px;
+        }
+      
+        @media (max-width: 991px) {
+          .product-image-section {
+            width: 100%;
+          }
+        }
+      
+        .product-image {
+          aspect-ratio: 0.64;
+          object-fit: cover;
+          width: 110px;
+          max-width: 100%;
+        }
+      
+        .progress-container {
+          background-color: #4d4bb1;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          padding: 22px 80px 22px 14px;
+        }
+      
+        .progress-step,
+        .shipping-info,
+        .delivery-status,
+        .confirmed-status {
+          display: flex;
+          gap: 15px;
+          font-size: 24px;
+          color: #fff;
+          font-weight: 400;
+          white-space: nowrap;
+        }
+      
+        .progress-indicator,
+        .shipping-indicator,
+        .delivery-indicator,
+        .confirmed-indicator {
+          background-color: #45a554;
+          border-radius: 50%;
+          align-self: start;
+          width: 24px;
+          height: 17px;
+        }
+      
+        .progress-text,
+        .shipping-text,
+        .delivery-text,
+        .confirmed-text {
+          font-family: 'Inter', sans-serif;
+          flex-grow: 1;
+        }
+      
+        .return-policy {
+          background-color: #d9d9d9;
+          display: flex;
+          padding-top: 21px;
+          flex-direction: column;
+        }
+      
+        .policy-text {
+          color: #000;
+          margin-left: 10px;
+          white-space: nowrap;
+          font: 400 24px 'Inter', sans-serif;
+        }
+      
+        .icon-section {
+          background-color: #999;
+          display: flex;
+          margin-top: 16px;
+          align-items: start;
+          justify-content: space-between;
+          gap: 20px;
+          padding: 10px 80px 10px 37px;
+        }
+      
+        .icon {
+          aspect-ratio: 1.49;
+          object-fit: cover;
+          width: 36px;
+          fill: #d9d9d9;
+          margin: auto 0;
+        }
+      
+        .return,
+        .help {
+          display: flex;
+          gap: 20px;
+          font-size: 24px;
+          color: #000;
+          font-weight: 400;
+          justify-content: space-between;
+          margin: auto 0;
+        }
+      
+        .return-text,
+        .help-text {
+          font-family: 'Inter', sans-serif;
+        }
